@@ -1,8 +1,8 @@
-# 宏大场景故事导演
+# 中国式宏大场景导演
 
 > 把一句简单设定，扩写成具有宏大世界、完整冲突和连续镜头的视觉故事。
 
-这是一个面向 Codex 的故事与视觉提示词 Skill。用户可以只提供人物、场景、情绪或简单情节，Skill 会补齐故事结构，确定适合的时长，建立角色与场景连续性台账，并生成可直接使用的图片提示词和视频提示词。
+这是一个面向 Codex 的中国式宏大场景故事与视觉提示词 Skill。用户可以只提供人物、场景、情绪或简单情节，Skill 会补齐故事结构，确定适合的时长，建立角色与场景连续性台账，并生成可直接使用的图片提示词和视频提示词。
 
 默认按照镜头成对交付。每个镜头先输出图片提示词，随后紧跟对应的视频提示词，方便先生成首帧，再制作同一镜头的视频。
 
@@ -11,7 +11,7 @@
 用户输入：
 
 ```text
-使用 $story-to-visual-prompt-director，创作一个天庭仙女下凡寻找失落星辰的故事，修仙朋克风格，约30秒。
+使用 $chinese-epic-scene-director，创作一个天庭仙女下凡寻找失落星辰的故事，修仙朋克风格，约30秒。
 ```
 
 Skill 会生成以下结构：
@@ -69,19 +69,19 @@ Skill 先提取主角、目标、阻力、世界规则和视觉方向，再建�
 克隆仓库：
 
 ```powershell
-git clone https://github.com/zhouwei713/story-to-visual-prompt-director.git
+git clone https://github.com/zhouwei713/chinese-epic-scene-director.git
 ```
 
 复制完整 Skill 目录：
 
 ```powershell
-Copy-Item -Recurse -LiteralPath ".\story-to-visual-prompt-director" -Destination "$env:USERPROFILE\.codex\skills\"
+Copy-Item -Recurse -LiteralPath ".\chinese-epic-scene-director" -Destination "$env:USERPROFILE\.codex\skills\"
 ```
 
 安装后，入口文件应位于：
 
 ```text
-%USERPROFILE%\.codex\skills\story-to-visual-prompt-director\SKILL.md
+%USERPROFILE%\.codex\skills\chinese-epic-scene-director\SKILL.md
 ```
 
 如果本机已经安装旧版本，请先备份并比较文件，再进行替换。开启新任务后即可调用。
@@ -91,19 +91,19 @@ Copy-Item -Recurse -LiteralPath ".\story-to-visual-prompt-director" -Destination
 最短调用：
 
 ```text
-使用 $story-to-visual-prompt-director，把这个想法写成30秒视觉故事：一名守墓人发现月亮正在坠落。
+使用 $chinese-epic-scene-director，把这个想法写成30秒视觉故事：一名守墓人发现月亮正在坠落。
 ```
 
 宏大场景调用：
 
 ```text
-使用 $story-to-visual-prompt-director，创作一个60秒东方神话短片。九座悬空天城在日蚀中逐层熄灭，一名年轻铸剑师必须用最后一柄飞剑重新启动天穹。输出故事、角色设定、连续性台账、分镜，以及每个镜头成对的图片提示词和视频提示词。
+使用 $chinese-epic-scene-director，创作一个60秒东方神话短片。九座悬空天城在日蚀中逐层熄灭，一名年轻铸剑师必须用最后一柄飞剑重新启动天穹。输出故事、角色设定、连续性台账、分镜，以及每个镜头成对的图片提示词和视频提示词。
 ```
 
 局部修订：
 
 ```text
-使用 $story-to-visual-prompt-director，保留现有场景、机位、空间关系和情绪节奏，只把主角换成成年女性机关术师，并同步更新每个镜头的图片与视频提示词。
+使用 $chinese-epic-scene-director，保留现有场景、机位、空间关系和情绪节奏，只把主角换成成年女性机关术师，并同步更新每个镜头的图片与视频提示词。
 ```
 
 ## 仓库结构
