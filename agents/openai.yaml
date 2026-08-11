@@ -1,0 +1,4 @@
+interface:
+  display_name: "宏大场景故事导演"
+  short_description: "把简单设定扩写成宏大场景故事、分镜和全套图片视频提示词"
+  default_prompt: "使用 $story-to-visual-prompt-director，把我的简单情节扩写成宏大场景故事，并输出分镜、图片提示词与视频提示词。"
