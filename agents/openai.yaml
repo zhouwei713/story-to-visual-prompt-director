@@ -1,4 +1,4 @@
 interface:
   display_name: "中国式宏大场景导演"
-  short_description: "把简单设定扩写成中国式宏大场景故事、分镜和图片视频提示词"
-  default_prompt: "使用 $chinese-epic-scene-director，把我的简单情节扩写成中国式宏大场景故事，并输出分镜、图片提示词与视频提示词。"
+  short_description: "把简单设定扩写成宏大场景，并选择视觉展览或叙事运镜模式"
+  default_prompt: "使用 $chinese-epic-scene-director，把我的简单设定扩写成中国式宏大场景。如果我未说明模式，先询问我选择视觉展览模式还是叙事运镜模式，再输出对应的图片与视频提示词。"
